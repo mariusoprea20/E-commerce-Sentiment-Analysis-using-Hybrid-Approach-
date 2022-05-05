@@ -1,6 +1,6 @@
 The following steps will enable you to develop a hybrid classifiers and polarise the sentiments within the dataset text tables.
 
-1. Run processData.m - to clear the text for a better accuracy
+1. Run readData.m - to read the data dictionary
 2. Run LexiconClassifier.m - to create a lexicon-based classifier
 3. Run WordEmbeddingClassifier.m - to invoke 1 mil of english words that will later be converted into word vectors for the SVM
 4. Run SVMDeVo.m - to create the SVM classifier
